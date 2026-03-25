@@ -48,12 +48,7 @@ printf("\n Sending frame %d \n FRAME ACKNOWLEDGED.	\n",j);
 printf("\n\nALL FRAME RECIEVED SUCCESSFULLY\n\n");
 }
 OUTPUT:
-
- 
-
-
-
-
+![WhatsApp Image 2026-03-25 at 11 14 34 PM](https://github.com/user-attachments/assets/09856af7-0341-4d48-b465-fdcee93f7beb)
 
 
 # RESULT:
