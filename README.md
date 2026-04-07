@@ -13,22 +13,25 @@ Personal Computer Turbo C Compiler
 14.	Choose the file and verify the go back protocol operation.
 
 # PROGRAM:
-
+```
 #include<stdio.h> void main()
 {
 
 int i,j,n;
 printf("GO BACK N ARQ\n");
-//printf("Entermessage in format\n"); printf("Enter number of frame : "); scanf("%d",&n);
+//printf("Entermessage in format\n");
+ printf("Enter number of frame : "); scanf("%d",&n);
 char frame[n][10];
 
 for(i=1;i<=n;i++)
 {
-printf("Content for frame %d :",i); scanf("%s",&frame[i]);
+printf("Content for frame %d :",i);
+scanf("%s",&frame[i]);
 }
 int s=1;
 //while(j<=n){
-printf("Enter frame number with no ACK :"); scanf("%d",&j);
+printf("Enter frame number with no ACK :");
+scanf("%d",&j);
 for(i=1;i<=n;i++)
 {
 if(i!=j)
@@ -39,7 +42,8 @@ printf("\n Sending frame %d \n FRAME ACKNOWLEDGED.	\n",i);
 }
 if(j<=n)
 {
-printf("No Acknowlegement for frame %d... \n",j); printf("Resending... Content from frame %d :%s\n\n",j,frame[j]);
+printf("No Acknowlegement for frame %d... \n",j);
+printf("Resending... Content from frame %d :%s\n\n",j,frame[j]);
 
 }
 printf("\n Sending frame %d \n FRAME ACKNOWLEDGED.	\n",j);
@@ -47,6 +51,7 @@ printf("\n Sending frame %d \n FRAME ACKNOWLEDGED.	\n",j);
 
 printf("\n\nALL FRAME RECIEVED SUCCESSFULLY\n\n");
 }
+```
 OUTPUT:
 <img width="652" height="549" alt="image" src="https://github.com/user-attachments/assets/5a00a99d-8d19-4b00-a00e-42d69450c71c" />
 
